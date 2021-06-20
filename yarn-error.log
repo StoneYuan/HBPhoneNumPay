@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/Stoneyuan/.nvm/versions/node/v10.4.0/bin/node /usr/local/bin/yarn add @dcloudio/uni-ui
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.9/bin:/Users/Stoneyuan/flutter/bin:/Users/Stoneyuan/.rvm/gems/ruby-2.6.5/bin:/Users/Stoneyuan/.rvm/gems/ruby-2.6.5@global/bin:/Users/Stoneyuan/.rvm/rubies/ruby-2.6.5/bin:/Users/Stoneyuan/.nvm/versions/node/v10.4.0/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Apple/usr/bin:.:/Users/Stoneyuan/.rvm/bin:/Users/Stoneyuan/Library/Android/sdk/tools:/Users/Stoneyuan/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.0.0
+
+Node version: 
+  10.4.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry-node.aliyun.com/org/1128626753506264/registry/test/@dcloudio%2funi-ui: not_found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:60231:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:117276:22)
+      at Request.emit (events.js:182:13)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:118259:10)
+      at Request.emit (events.js:182:13)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:118179:12)
+      at Object.onceWrapper (events.js:273:13)
+      at IncomingMessage.emit (events.js:187:15)
+      at endReadableNT (_stream_readable.js:1081:12)
+      at process._tickCallback (internal/process/next_tick.js:63:19)
